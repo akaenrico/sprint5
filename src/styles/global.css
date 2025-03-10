@@ -1,0 +1,58 @@
+:root {
+    --bs-primary: #343E3D;
+    --bs-primary-rgb: 52, 62, 61;
+    --bs-secondary: #313b2f;
+    --bs-secondary-rgb: 49, 59, 47;
+}
+
+* {
+    font-family: 'Fira Code', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #343E3D;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.main-logo {
+    height: 2.5rem;
+    font-size: 2.5rem;
+}
+
+.nav-text {
+    color: #FFFFFF;
+}
+
+.max-temp {
+    background-color: #FA7D7D;
+    max-width: 4rem;
+}
+
+.min-temp {
+    background-color: #70BF79;
+    max-width: 4rem;
+}
+
+.temp-info {
+    min-width: 14rem;
+}
+
+.error-message {
+    color: red;
+    font-size: 1em;
+}
